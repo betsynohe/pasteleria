@@ -1,0 +1,286 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body{
+  font-family:'Caveat', cursive;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    
+    
+}
+/*barra de navegacion*/
+.nav-item{
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    font-weight: 500;
+}
+.nav-link:visited{
+    color: #cc2daf;
+}
+
+.nav-link:hover{
+    color: #ff5e14;
+}
+/*imagen central*/
+.principal{
+  text-align: center;
+}
+/*carrousel*/
+.row{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1{
+    font-size: 50px;
+    text-align:center ;
+    padding: 20px;
+    font-weight: 600;
+    color:black;
+    
+  }
+p{
+  font-size:50px;
+  text-align: center;
+  color: #cc2daf;
+}
+/*pagina de nosotros*/
+.titulo{
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+
+}
+.quienes{
+  text-align: center;
+  color:#cc2daf ;
+  font-size: 50px;
+  font-weight: 600;
+}
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.volver{
+  color: #cc2daf;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.volver:hover{
+  color: #ff5e14;
+}
+/*pagina de postres*/
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #ff5e14 40%, #cc2daf 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+/*comienzo de contacto*/
+.cont{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+.titlecontacto{
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.label{
+  display: block;
+  font-size: 20px;
+  color: #cc2daf;
+  font-weight: 600;
+}
+.botoncaja{
+  text-align: center;
+  padding: 20px;
+}
+.boton{
+ border-radius: 5px;
+ color: #cc2daf;
+ padding: 5px;
+ font-size: 20px;
+ font-weight: 600;
+}
+.boton:hover{
+  color: #ff5e14;
+}
+.input{
+font-size: 20px;
+}
+@media (max-width: 360px){
+  .cont{
+    display: block;
+   text-align: center;
+}
+.mapa{
+  display: flex;
+  width: 50%;
+}
+}
+
+/*comienzo de footer*/
+
+.footer-section {
+  background-color: #151414;
+
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+
+.cta-text {
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+
+}
+.cta-text span {
+  color: #757575;
+  font-size: 20px;
+}
+.footer-content {
+  position: relative;
+}
+
+.footer-social-icon{
+  float: right;
+}
+
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 30px;
+  color: #cc2daf;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 20px;
+  color:#cc2daf ;
+}
